@@ -1,0 +1,49 @@
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+
+}
+.todoItem button {
+  cursor: pointer;
+  width: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 5;
+}
+
+.todoText {
+  flex-grow: 1;
+}
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+.svgOne,
+.svgTwo,
+.completed {
+  height: 20px;
+  width: 20px;
+  margin-top: 7px;
+
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+.todoItem .svgOne {
+  background-color: #ff2222;
+}
+.svgTwo {
+  stroke: #ff2222;
+}
+.todoItem .svgOne:hover {
+  background-color: #22ff22;
+}
+.todoItem .completed {
+  background-color: #22ff22;
+}

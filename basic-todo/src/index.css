@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Change to your preferred background color */
+  margin: 0; /* Remove default margin to fill the entire viewport */
+  padding: 0; /* Remove default padding */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1 {
+  text-align: center;
+  margin: 1rem auto;
+}
+.container {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(135deg, #062358, #505058);
+  width: 30rem;
+  margin: 20px auto;
+}
+@media (max-width: 544px) {
+  .container {
+    width: 90%;
+  }
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+form input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+form button:hover {
+  background-color: #006fe6;
+}
+
+.todoList {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(135deg, #3498db, #2980b9);
+  margin-bottom: 20px;
+}
+
+.empty {
+  color: #ff3333;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
